@@ -38,6 +38,37 @@ export default function Home() {
       <Head>
         <title>IPOs in Your Inbox</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Be in the know for all the IPOs. Emails sent to your inbox in the nick of time, with curated information, so that you can beat the market on that fresh IPO."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ipoemail.com/" />
+        <meta property="og:title" content="IPOs in Your Inbox" />
+        <meta
+          property="og:description"
+          content="Be in the know for all the IPOs. Emails sent to your inbox in the nick of time, with curated information, so that you can beat the market on that fresh IPO."
+        />
+        <meta property="og:image" content="/illustration.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:domain" value="ipoemail.com" />
+        <meta name="twitter:title" value="IPOs in Your Inbox" />
+        <meta
+          name="twitter:description"
+          value="Be in the know for all the IPOs. Emails sent to your inbox in the nick of time, with curated information, so that you can beat the market on that fresh IPO."
+        />
+        <meta name="twitter:image" content="/illustration.png" />
+        <meta name="twitter:url" value="http://www.ipoemail.com/" />
+        <meta name="twitter:label1" value="Be in the know for all the IPOs" />
+        <meta
+          name="twitter:data1"
+          value="Emails sent to your inbox in the nick of time"
+        />
+        <meta name="twitter:label2" value="Curated information" />
+        <meta
+          name="twitter:data2"
+          value="so that you can beat the market on that fresh IPO"
+        />
       </Head>
 
       <main className={styles.main}>
