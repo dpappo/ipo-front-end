@@ -78,7 +78,7 @@ export default function Home() {
           Emails sent to your inbox in the nick of time, with curated
           information, so that you can beat the market on that fresh IPO.
         </p>
-
+        {/* 
         <div className={styles.grid}>
           <Form
             onSubmit={(event) => {
@@ -114,7 +114,11 @@ export default function Home() {
           <Alert variant="success">
             Got it! Go check your inbox to confirm your subscription
           </Alert>
-        )}
+        )} */}
+        <iframe
+          style={{ border: "none", width: "100%", height: "373px" }}
+          src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
+        />
         <Image
           src="/illustration.png"
           alt="business illustration"
