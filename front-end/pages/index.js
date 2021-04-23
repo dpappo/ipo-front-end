@@ -9,6 +9,7 @@ import { useState } from "react";
 import axios from "axios";
 
 export default function Home() {
+  //rebuild toggle
   const submitData = function (email) {
     console.log("submitting email: ", email);
     axios({
