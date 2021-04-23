@@ -18,6 +18,9 @@ export default function Home() {
       data: {
         email: email,
       },
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
     }).catch((error) => {
       console.log(error.response);
     });
