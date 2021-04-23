@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import axios from "axios";
+import qs from "qs";
 
 export default function Home() {
   //rebuild toggle on
@@ -15,9 +16,9 @@ export default function Home() {
     axios({
       method: "post",
       url: "https://ipo-email.herokuapp.com/join",
-      data: {
+      data: qs.stringify({
         email: email,
-      },
+      }),
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
