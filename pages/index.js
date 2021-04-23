@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
+import Alert from "react-bootstrap/Alert";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import axios from "axios";
@@ -25,9 +26,12 @@ export default function Home() {
     }).catch((error) => {
       console.log(error.response);
     });
+    setEmail("");
+    setSubscribe(true);
   };
 
   const [email, setEmail] = useState("");
+  const [subscribe, setSubscribe] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -75,6 +79,11 @@ export default function Home() {
             </Form.Row>
           </Form>
         </div>
+        {subscribe && (
+          <Alert variant="success">
+            Got it! Go check your inbox to confirm your subscription
+          </Alert>
+        )}
         <Image
           src="/illustration.png"
           alt="business illustration"
