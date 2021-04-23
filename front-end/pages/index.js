@@ -20,17 +20,6 @@ export default function Home() {
     }).catch((error) => {
       console.log(error.response);
     });
-
-    // axios.post('/user', {
-    //   firstName: 'Fred',
-    //   lastName: 'Flintstone'
-    // })
-    // .then(function (response) {
-    //   console.log(response);
-    // })
-    // .catch(function (error) {
-    //   console.log(error);
-    // });
   };
 
   const [email, setEmail] = useState("");
