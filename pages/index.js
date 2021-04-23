@@ -72,7 +72,7 @@ export default function Home() {
           </Form>
         </div>
         <Image
-          src="/../public/illustration.png"
+          src="/illustration.png"
           alt="business illustration"
           width={500}
           height={500}
