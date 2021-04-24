@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+// import "../styles/globals.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
@@ -115,28 +116,23 @@ export default function Home() {
             Got it! Go check your inbox to confirm your subscription
           </Alert>
         )} */}
-        <iframe
-          style={{ border: "none", width: "100%", height: "373px" }}
-          src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
-        />
-        <Image
-          src="/illustration.png"
-          alt="business illustration"
-          width={500}
-          height={500}
-        />
+
+        <div className={styles.flexContainer}>
+          <iframe
+            style={{ border: "none", height: "373px" }}
+            src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
+          />
+          <Image
+            src="/illustration.png"
+            alt="business illustration"
+            width={500}
+            height={500}
+          />
+        </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      {/* <footer className={styles.footer}>
+      </footer> */}
     </div>
   );
 }

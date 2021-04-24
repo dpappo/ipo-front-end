@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow: hidden
 }
 
 a {
@@ -13,4 +14,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+iframe > html {
+  overflow: hidden;
+}
+
+iframe > html > body > div > div > form {
+  min-width: auto;
+  width: auto;
+}
+
+iframe {
+  border: "none";
+  height: "373px";
+  display: flex;
+  margin: auto;
 }

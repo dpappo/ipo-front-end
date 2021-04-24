@@ -126,6 +126,16 @@
   }
 }
 
-.form_15iP5 {
+@media (min-width: 600px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row-reverse;
+  }
+}
+
+form.form_15iP5 {
   margin-top: 0;
+  min-width: auto !important;
+  width: auto !important;
 }
