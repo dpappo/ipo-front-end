@@ -38,6 +38,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>IPOs in Your Inbox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -119,6 +120,8 @@ export default function Home() {
 
         <div className={styles.flexContainer}>
           <iframe
+            scrolling="no"
+            id="iframe"
             style={{ border: "none", height: "373px" }}
             src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
           />
@@ -130,6 +133,24 @@ export default function Home() {
           />
         </div>
       </main>
+
+      {/* <style>
+        form {
+          min-width: auto !important;
+          width: auto !important;
+        }
+      </style> */}
+
+      <style
+        dangerouslySetInnerHTML={{
+          __html: [
+            ".form_15iP5 {",
+            "  min-width: auto !important;",
+            "  width: auto !important;",
+            "}",
+          ].join("\n"),
+        }}
+      ></style>
 
       {/* <footer className={styles.footer}>
       </footer> */}

@@ -1,10 +1,9 @@
 html,
-body {
+body, root {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    overflow: hidden
 }
 
 a {
@@ -30,4 +29,29 @@ iframe {
   height: "373px";
   display: flex;
   margin: auto;
+  width: 100%;
+  /* width: "600px" */
+}
+
+@media (min-width: 600px) {
+  iframe {
+    width: 600px;
+  }
+
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+  }
+
+  iframe {
+    width: auto;
+  }
+
 }
