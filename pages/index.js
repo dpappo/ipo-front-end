@@ -71,6 +71,20 @@ export default function Home() {
           name="twitter:data2"
           value="so that you can beat the market on that fresh IPO"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FJEWS9VHGC"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+  
+            gtag('config', 'G-FJEWS9VHGC');`,
+          }}
+        />
       </Head>
 
       <main className={styles.main}>
