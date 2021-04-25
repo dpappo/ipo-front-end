@@ -88,11 +88,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Be in the know for all the IPOs</h1>
+        <h1 className={styles.title}>
+          Find the Best IPOs for Investment. In Your Mailbox.
+        </h1>
         <br />
         <p className={styles.description}>
           Emails sent to your inbox in the nick of time, with curated
-          information, so that you can beat the market on that fresh IPO.
+          information, so that you can beat the market on that fresh IPO. When a
+          stock IPO is offered, our IPO calendar has you covered. We'll send you
+          charts, prices, and trading information exactly when you need it.
         </p>
         {/* 
         <div className={styles.grid}>
@@ -141,19 +145,40 @@ export default function Home() {
           />
           <Image
             src="/illustration.png"
-            alt="business illustration"
+            alt="Illustration by Olha Khomich from Ouch!"
             width={500}
             height={500}
           />
         </div>
       </main>
 
-      {/* <style>
-        form {
-          min-width: auto !important;
-          width: auto !important;
-        }
-      </style> */}
+      <div className={styles.main}>
+        <h1 className={styles.title}>
+          Looking for New IPOs for April 2021? IPOEmail has you covered
+        </h1>
+        <br />
+        <p className={styles.description}>
+          While nobody knows what day 1 trading performance will be on that hot
+          new IPO, what we do know when that IPO will drop and how you can be
+          first to market in 2021. Be the next Wolf of Wall Street by signing up
+          with IPOEmail.
+        </p>
+
+        <div className={styles.flexContainer} style={{ flexDirection: "row" }}>
+          <iframe
+            scrolling="no"
+            id="iframe"
+            style={{ border: "none", height: "373px" }}
+            src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
+          />
+          <Image
+            src="/illustration2.png"
+            alt="Illustration by Olha Khomich from Ouch!"
+            width={500}
+            height={500}
+          />
+        </div>
+      </div>
 
       <style
         dangerouslySetInnerHTML={{
