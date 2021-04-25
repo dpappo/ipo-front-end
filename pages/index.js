@@ -13,26 +13,26 @@ import qs from "qs";
 
 export default function Home() {
   //rebuild toggle on
-  const submitData = function (email) {
-    console.log("submitting email: ", email);
-    axios({
-      method: "post",
-      url: "https://ipo-email.herokuapp.com/join",
-      data: qs.stringify({
-        email: email,
-      }),
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-    }).catch((error) => {
-      console.log(error.response);
-    });
-    setEmail("");
-    setSubscribe(true);
-  };
+  // const submitData = function (email) {
+  //   console.log("submitting email: ", email);
+  //   axios({
+  //     method: "post",
+  //     url: "https://ipo-email.herokuapp.com/join",
+  //     data: qs.stringify({
+  //       email: email,
+  //     }),
+  //     headers: {
+  //       "Content-Type": "application/x-www-form-urlencoded",
+  //     },
+  //   }).catch((error) => {
+  //     console.log(error.response);
+  //   });
+  //   setEmail("");
+  //   setSubscribe(true);
+  // };
 
-  const [email, setEmail] = useState("");
-  const [subscribe, setSubscribe] = useState(false);
+  // const [email, setEmail] = useState("");
+  // const [subscribe, setSubscribe] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -145,7 +145,7 @@ export default function Home() {
           />
           <Image
             src="/illustration.png"
-            alt="Illustration by Olha Khomich from Ouch!"
+            alt="Illustration of business success from a great ipo investment by Olha Khomich from Ouch!"
             width={500}
             height={500}
           />
@@ -173,7 +173,7 @@ export default function Home() {
           />
           <Image
             src="/illustration2.png"
-            alt="Illustration by Olha Khomich from Ouch!"
+            alt="Illustration of what happens when get alerted of new IPOs in your inbox by Olha Khomich from Ouch!"
             width={500}
             height={500}
           />
