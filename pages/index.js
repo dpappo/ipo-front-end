@@ -96,7 +96,8 @@ export default function Home() {
           Emails sent to your inbox in the nick of time, with curated
           information, so that you can beat the market on that fresh IPO. When a
           stock IPO is offered, our IPO calendar has you covered. We'll send you
-          charts, prices, and trading information exactly when you need it.
+          charts, prices, and trading information exactly when you need it. Oh,
+          did we mention it's <span>free</span>?
         </p>
         {/* 
         <div className={styles.grid}>
@@ -154,7 +155,7 @@ export default function Home() {
 
       <div className={styles.main}>
         <h1 className={styles.title}>
-          Looking for New IPOs for April 2021? IPOEmail has you covered
+          Looking for New IPOs for April 2021? IPO Email Alerts has you covered.
         </h1>
         <br />
         <p className={styles.description}>

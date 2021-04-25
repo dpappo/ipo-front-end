@@ -44,6 +44,7 @@ span {
   background: -webkit-linear-gradient(#3e9c35, #094f0a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 @media (min-width: 600px) {
