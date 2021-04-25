@@ -40,6 +40,12 @@ iframe:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+span {
+  background: -webkit-linear-gradient(#3e9c35, #094f0a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 600px) {
   iframe {
     width: 600px;

@@ -89,7 +89,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Find the Best IPOs for Investment. In Your Mailbox.
+          Find the Best IPOs for Investment. <span>In Your Mailbox.</span>
         </h1>
         <br />
         <p className={styles.description}>
