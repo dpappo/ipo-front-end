@@ -140,7 +140,7 @@ export default function Home() {
           <iframe
             scrolling="no"
             id="iframe"
-            style={{ border: "none", height: "373px" }}
+            style={{ border: "none", height: "290px" }}
             src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
           />
           <Image
@@ -168,7 +168,7 @@ export default function Home() {
           <iframe
             scrolling="no"
             id="iframe"
-            style={{ border: "none", height: "373px" }}
+            style={{ border: "none", height: "290px" }}
             src="https://cdn.forms-content.sg-form.com/532f2320-a478-11eb-a67b-8e97e70c24cc"
           />
           <Image
