@@ -161,7 +161,7 @@ export default function Home() {
           While nobody knows what day 1 trading performance will be on that hot
           new IPO, what we do know when that IPO will drop and how you can be
           first to market in 2021. Be the next Wolf of Wall Street by signing up
-          with IPOEmail.
+          for IPO email alerts with IPOEmail.
         </p>
 
         <div className={styles.flexContainer} style={{ flexDirection: "row" }}>
