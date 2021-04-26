@@ -2,6 +2,8 @@
 
 The market is ripe for a season of fresh IPOs, and I didn't want to miss out; so I built IPO Email Alerts to notify me at the right time with the right information when a fresh IPO hits the market.
 
+<a href="https://ipoemailalerts.com">![Screenshot](./public/screenshot.png)</a>
+
 ## Getting Started
 
 Head over to the production site [IPOEmailAlerts.com](http://ipoemailalerts.com) and input your email address to get on the list.
